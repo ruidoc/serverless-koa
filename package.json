@@ -1,0 +1,22 @@
+{
+  "name": "serverless-koa",
+  "version": "1.0.0",
+  "description": "腾讯云Serverless应用",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "serve": "pm2 start --watch"
+  },
+  "author": "ruidoc",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "axios": "^1.3.4",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.4.0",
+    "koa-jwt": "^4.0.4",
+    "mongoose": "^7.0.2",
+    "socket.io": "^4.6.1"
+  }
+}
